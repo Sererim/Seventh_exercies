@@ -107,7 +107,10 @@ class Homework
 
     public void ShowSpecific(int i, int j)
     {
-        Console.WriteLine($" |{matrix[i,j]}| ");
+        if(i < m && j < n)
+            Console.WriteLine($" |{matrix[i,j]}| ");
+        else
+            Console.WriteLine("Such element doesn't exist in the array.");
     }
 
     public void ShowMean()
