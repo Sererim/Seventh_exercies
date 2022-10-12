@@ -3,7 +3,6 @@
     string key = "", load = "";
     int m = 0, n = 0;
     
-    
     Console.WriteLine("Program is running.");
 
     while(true)
@@ -35,8 +34,7 @@
                 break;
             case "2":
                 arr.GenerateWhole();
-                Console.WriteLine("Enter i - column, j - row.\n" +
-                "Enter -1 to end input.");
+
                 while(true)
                 {
                     key = Console.ReadLine();
