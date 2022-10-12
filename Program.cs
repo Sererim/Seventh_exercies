@@ -41,7 +41,7 @@
                 {
                     key = Console.ReadLine();
                     m = System.Int32.Parse(key);
-                    key = Console.ReadLine(key);
+                    key = Console.ReadLine();
                     n = System.Int32.Parse(key);
                     if(m == -1 || n == -1)
                         break;
